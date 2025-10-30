@@ -10,11 +10,15 @@ public class card {
     }
 
     public int getFace() {
-        return faces[face];
+        return face;
     }
 
     public int getSuit() {
-        return suits[suit];
+        return suit;
+    }
+
+    public String toString() {
+        return faces[face] + " of " + suits[suit];
     }
 }
 
