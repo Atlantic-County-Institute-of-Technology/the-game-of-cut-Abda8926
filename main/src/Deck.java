@@ -22,14 +22,16 @@ public class Deck {
     }
 
     public card fetchCard(int target){
-
         card ret = deck[target];
-        
+        return ret;
     }
 
-    public card draw(){
-
+    public String toString() {
+        String output = " ";
+        for (int i=0; i<52; i++){
+            output =  deck[i] + "\n" + output;
+        }
+        return("Deck: \n" + output);
     }
-    
 }
 
