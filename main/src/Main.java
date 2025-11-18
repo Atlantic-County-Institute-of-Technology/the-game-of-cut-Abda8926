@@ -3,7 +3,7 @@
 import java.util.*;
 import java.lang.*;
 public class Main {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         // Declaring RESET so that we can reset the color
         final String RESET = "\u001B[0m";
 
