@@ -51,7 +51,7 @@ public class Main {
                 throw new RuntimeException(e);
             }
             if(decky.fetchCard(plchoice).getFace() == decky.fetchCard(cpuchoice).getFace()){
-                if(decky.fetchCard(plchoice).getFace() > decky.fetchCard(cpuchoice).getFace()){
+                if(decky.fetchCard(plchoice).getSuit() > decky.fetchCard(cpuchoice).getSuit()){
                     plwins ++;
                     System.out.println(PLRCOLOR + "Player wins." + RESET);
                 }
